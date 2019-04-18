@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACGA,OAAO,CAAC,4EAAI;ADCZ,gBAAgB;AAIhB,YAAY;AAYZ,WAAW",
+    "sources": [
+        "theme-variables.scss",
+        "fonts.scss"
+    ],
+    "names": [],
+    "file": "theme-variables.css"
+}

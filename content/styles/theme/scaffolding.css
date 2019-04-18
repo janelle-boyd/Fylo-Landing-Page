@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700");
+/* Responsive */
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700");
+h1 {
+  color: #070439;
+  font: normal normal 700 42px "Raleway", "Roboto", "Helvetica Neue", Helvetica;
+}
+
+p {
+  font: normal normal 400 16px "Open Sans", "Roboto", "Helvetica Neue", Helvetica;
+  color: gray;
+}
+
+label {
+  color: #070439;
+  display: block;
+  font: normal normal 700 18px "Raleway", "Roboto", "Helvetica Neue", Helvetica;
+  padding-bottom: 18px;
+}
+
+input {
+  height: 50px;
+}
+
+input[placeholder] {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+button {
+  font: normal normal 700 14px "Open Sans", "Roboto", "Helvetica Neue", Helvetica;
+  color: white;
+  cursor: pointer;
+}
+
+button.btn--primary {
+  background-color: #05d69b;
+}
+
+button:hover {
+  background-color: #070439;
+}
+
+a {
+  color: #070439;
+  font-family: "Open Sans", "Roboto", "Helvetica Neue", Helvetica;
+}
+
+a:hover {
+  color: #05d69b;
+}
+/*# sourceMappingURL=scaffolding.css.map */

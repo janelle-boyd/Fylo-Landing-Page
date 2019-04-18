@@ -1,0 +1,34 @@
+// Style Guide Definitions
+
+@import "fonts.scss";
+
+/* Responsive */
+$mobile: 375px;
+$desktop: 1440px;
+
+/* Colors */
+// Primary
+$soft-blue: hsl(243, 86%, 85%);
+$dark-blue: hsl(243, 87%, 12%);
+
+// Accent
+$green: hsl(163, 95%, 43%);
+
+// Neutral
+$gray: hsl(0, 0%, 50%);
+$white: hsl(0, 0%, 100%);
+
+/* Fonts */
+$font-family-fallback: 'Roboto', 'Helvetica Neue', Helvetica;
+
+// Headings
+$font-family-raleway: 'Raleway', $font-family-fallback;
+
+// Body
+$font-family-open-sans: 'Open Sans', $font-family-fallback;
+
+// Weights
+$bold-weight: 700;
+$normal-weight: 400;
+
+// End of Style Guide Definitions

@@ -1,0 +1,87 @@
+// Core variables and mixins
+@import "./theme/theme-variables.scss";
+@import "./theme/scaffolding.scss";
+@import "./theme/fonts.scss";
+
+html {
+    box-sizing: content-box;
+    height: 100%;
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-flow: row wrap;
+
+    &__illustration {
+        background-image: linear-gradient(to bottom left, $dark-blue, $soft-blue);
+        display: flex;
+        align-items: center;
+        flex: 1 0 0;
+
+        >img {
+            padding: 15%;
+        }
+    }
+
+    &__signup {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1 0 0;
+        padding: 5%;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &__contact {
+
+                &__icon {
+                    padding: 0 0 0 20px;
+                }
+            }
+        }
+
+        // Is there a better way to format?
+        .content {
+            >.form {
+                >.signup {
+                    >.input-group {
+                        display: flex;
+                        align-items: stretch;
+                        justify-content: space-between;
+
+                        >.signup__input, .submit {
+                            flex: 2;
+                            -webkit-box-shadow: 2px 2px 4px -1px $gray;
+                            -moz-box-shadow: 2px 2px 4px -1px $gray;
+                            box-shadow: 2px 2px 4px -1px $gray;
+                            border-radius: 3px 3px 3px 3px;
+                            -moz-border-radius: 3px 3px 3px 3px;
+                            -webkit-border-radius: 3px 3px 3px 3px;
+                            border: 0px none;
+                        }
+
+                        .submit {
+                            flex: 1;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .privacy {
+            justify-content: flex-end;
+            display: flex;
+        }
+    }
+}

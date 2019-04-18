@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700");
+/* Responsive */
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700");
+/* Responsive */
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700");
+h1 {
+  color: #070439;
+  font: normal normal 700 42px "Raleway", "Roboto", "Helvetica Neue", Helvetica;
+}
+
+p {
+  font: normal normal 400 16px "Open Sans", "Roboto", "Helvetica Neue", Helvetica;
+  color: gray;
+}
+
+label {
+  color: #070439;
+  display: block;
+  font: normal normal 700 18px "Raleway", "Roboto", "Helvetica Neue", Helvetica;
+  padding-bottom: 18px;
+}
+
+input {
+  height: 50px;
+}
+
+input[placeholder] {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+button {
+  font: normal normal 700 14px "Open Sans", "Roboto", "Helvetica Neue", Helvetica;
+  color: white;
+  cursor: pointer;
+}
+
+button.btn--primary {
+  background-color: #05d69b;
+}
+
+button:hover {
+  background-color: #070439;
+}
+
+a {
+  color: #070439;
+  font-family: "Open Sans", "Roboto", "Helvetica Neue", Helvetica;
+}
+
+a:hover {
+  color: #05d69b;
+}
+
+html {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 100%;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.container__illustration {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#070439), to(#bbb8fa));
+  background-image: linear-gradient(to bottom left, #070439, #bbb8fa);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.container__illustration > img {
+  padding: 15%;
+}
+
+.container__signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+  padding: 5%;
+}
+
+.container__signup .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__signup .header__contact__icon {
+  padding: 0 0 0 20px;
+}
+
+.container__signup .content > .form > .signup > .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container__signup .content > .form > .signup > .input-group > .signup__input, .container__signup .content > .form > .signup > .input-group .submit {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-shadow: 2px 2px 4px -1px gray;
+  box-shadow: 2px 2px 4px -1px gray;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px none;
+}
+
+.container__signup .content > .form > .signup > .input-group .submit {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 20px;
+}
+
+.container__signup .privacy {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=index.css.map */

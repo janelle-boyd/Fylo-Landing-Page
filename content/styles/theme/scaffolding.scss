@@ -1,0 +1,54 @@
+// Reset & Dependencies
+@import "theme-variables.scss";
+@import "fonts.scss";
+
+h1 {
+    color: $dark-blue;
+    font: normal normal $bold-weight 42px $font-family-raleway;
+}
+
+p {
+    font: normal normal $normal-weight 16px $font-family-open-sans;
+    color: $gray;
+}
+
+label {
+    color: $dark-blue;
+    display: block;
+    font: normal normal $bold-weight 18px $font-family-raleway;
+    padding-bottom: 18px;
+}
+
+input {
+    height: 50px;
+}
+
+input[placeholder] {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+button {
+    font: normal normal $bold-weight 14px $font-family-open-sans;
+    color: $white;
+    cursor: pointer;
+
+    &.btn {
+        &--primary {
+            background-color: $green;
+        }
+    }
+
+    &:hover {
+        background-color: $dark-blue;
+    }
+}
+
+a {
+    color: $dark-blue;
+    font-family: $font-family-open-sans;
+
+    &:hover {
+        color: $green;
+    }
+}
